@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react'
+import {im } from "../images/im"
 
 function Eyes() {
 
@@ -23,7 +24,7 @@ function Eyes() {
 
   return (
     <div className='eyes w-full h-screen overflow-hidden'>
-      <div data-scroll data-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover bg-center' style={{ backgroundImage: `url('src/images/Ochi Website background.jpg')` }}>
+      <div data-scroll data-section data-scroll-speed="-.7" className='relative w-full h-full bg-cover bg-center' style={{ backgroundImage: `url(${im.Websitebackground})` }}>
         <div className='flex absolute gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
           <div className='w-[15vw] flex h-[15vw] rounded-full items-center justify-center bg-zinc-100'>
             <div className='relative w-2/3 h-2/3 rounded-full bg-zinc-900'>
