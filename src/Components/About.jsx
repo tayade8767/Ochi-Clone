@@ -35,7 +35,7 @@ function About() {
             </button>
           </div>
           <div className='w-1/2 h-[70vh] bg-[#b0c859] mr-12 -mt-2 rounded-3xl flex justify-center items-center'>
-            <img className='rounded-[60px] p-10' src="src\images\Ochi Website.jpg" alt='Image' />
+            <img className='rounded-[60px] p-10' src="./src\images\Ochi Website.jpg" alt='Image' />
           </div>
 
             
